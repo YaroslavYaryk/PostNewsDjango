@@ -117,7 +117,6 @@ rich==10.9.0
 SecretStorage==2.3.1
 selenium==3.141.0
 simplejson==3.16.0
-sip==4.19.21
 six==1.14.0
 social==0.1.dev3
 social-auth-app-django==5.0.0
