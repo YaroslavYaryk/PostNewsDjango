@@ -94,7 +94,6 @@ pyperclip==1.8.2
 PyQt5==5.14.1
 PyRect==0.1.4
 PyScreeze==0.1.28
-python-apt==2.0.0+ubuntu0.20.4.6
 python-dateutil==2.7.3
 python-debian===0.1.36ubuntu1
 python-Levenshtein==0.12.0
