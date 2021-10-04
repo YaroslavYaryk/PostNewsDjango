@@ -16,7 +16,6 @@ click==8.0.1
 colorama==0.4.3
 commonmark==0.9.1
 dbus-python==1.2.16
-defer==1.0.6
 defusedxml==0.7.1
 distlib==0.3.3
 distro==1.4.0
