@@ -132,7 +132,7 @@ LOGGING = {
             'level': 'WARNING',
             'class': 'logging.FileHandler',
             'formatter': 'file',
-            'filename': '/home/yaroslav/Python/Django/menu/logging/log.log',
+            'filename': '/home/yaroslav/Programming/Python/Django/menu/logging/log.log',
         },
         'mail_admins': {
             'level': 'ERROR',

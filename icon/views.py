@@ -38,8 +38,7 @@ from rest_framework.viewsets import ModelViewSet
 comment_is_liked = []
 
 order = ""
-
-log.add("/home/yaroslav/Python/Django/menu/logging/log.log",
+log.add("/home/yaroslav/Programming/Python/Django/menu/logging/log.log",
         enqueue=True, level="DEBUG", rotation="10 MB")
 
 
