@@ -51,7 +51,6 @@ lazy-object-proxy==1.4.3
 lockfile==0.12.2
 logilab-common==1.4.3
 loguru==0.5.3
-louis==3.12.0
 Mako==1.1.0
 Markdown==3.3.4
 MarkupSafe==1.1.0
