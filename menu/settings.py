@@ -128,10 +128,10 @@ LOGGING = {
     },
     'handlers': {
         
-        'file': {
+        'to_file': {
             'level': 'WARNING',
             'class': 'logging.FileHandler',
-            'formatter': '%(asctime)s  %(name)-12s %(levelname)-8s <--> %(message)s',
+            'formatter': 'file',
             'filename': '/home/yaroslav/Programming/Python/Django/menu/logging/log.log',
         },
         'mail_admins': {
@@ -143,7 +143,7 @@ LOGGING = {
     'loggers': {
         '': {
             'level': 'WARNING',
-            'handlers': ['file']
+            'handlers': ['to_file']
         },
         'django.request': {
             'handlers': ['mail_admins'],
