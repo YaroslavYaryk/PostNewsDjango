@@ -131,7 +131,7 @@ LOGGING = {
         'file': {
             'level': 'WARNING',
             'class': 'logging.FileHandler',
-            'formatter': 'file',
+            'formatter': '%(asctime)s  %(name)-12s %(levelname)-8s <--> %(message)s',
             'filename': '/home/yaroslav/Programming/Python/Django/menu/logging/log.log',
         },
         'mail_admins': {
