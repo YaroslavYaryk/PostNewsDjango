@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 from django.contrib import messages
+import django_on_heroku
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -316,3 +318,5 @@ ADMIN = [
     ('Admin2', 'admin2@othersite.com'),
     ('MegaAdmin', 'megaadmin@megasite.com')
 ]
+
+django_on_heroku.settings(locals())
