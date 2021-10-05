@@ -1,2 +1,1 @@
-web: gunicorn menu.wsgi
-manage.py migrate
+web: gunicorn menu.wsgi --log-file -
