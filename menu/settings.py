@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     "social_django",
     "ckeditor",
     "ckeditor_uploader",
-    "captcha",
+    # "captcha",
     "bootstrap4",
     'django_cleanup',
     "icon.apps.IconConfig",
